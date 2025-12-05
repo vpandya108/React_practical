@@ -9,6 +9,7 @@ function App() {
       <h1>Hello, react!</h1>
       <h5>learning react</h5>
       <button>click me!</button>
+      <p>my paragraph</p>
     </div>
   );
 }
