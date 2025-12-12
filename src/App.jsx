@@ -10,8 +10,23 @@ function App() {
       <h5>learning react</h5>
       <button>click me!</button>
       <p>my paragraph</p>
+      <Color />
+      <Paint />
     </div>
-  );
+  )
 }
-
+function Color()
+{
+  return(
+    <h1>red Color</h1>
+  )
+}
+function Paint()
+{
+  return(
+    <div>
+      <h6>react practical of componet</h6>
+    </div>
+  )
+}
 export default App
