@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './styles.css'
 
 function App() {
+  alert(sum(5,6));
   let myvariable="vishva";
   return (
     <div>
@@ -28,5 +29,9 @@ function Paint()
       <h6>react practical of componet</h6>
     </div>
   )
+}
+function sum(a,b)
+{
+  return a+b
 }
 export default App
